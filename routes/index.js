@@ -41,7 +41,7 @@ router.get('/speakers', function(req, res) {
       myArtwork = myArtwork.concat(item.artwork);
   });
   res.render('speakers', {
-    title: 'Speakers',
+    title: 'Teams',
     artwork: myArtwork,
     artists: myArtists,
     // 27
